@@ -8,7 +8,7 @@ body{
 h1{
     text-align: center;
     font-family: 'Koulen', cursive;
-    
+
 }
 
 
@@ -17,8 +17,8 @@ h1{
     width: 40em;
     height: 4em;
     margin: auto;
-    
-    
+
+
 }
 
 h2{
@@ -41,8 +41,8 @@ h3{
 
 #box2{
    margin-left: 1rem;
-   
-   
+
+
 }
 
 .container3{
@@ -70,9 +70,9 @@ h3{
 }
 
 #img{
-    
+
     visibility: hidden;
-    
+
 }
 
 footer{
@@ -89,4 +89,23 @@ footer{
     font-size: 30px;
 
 
+}
+
+
+ #botao{
+
+    margin-left: 1rem;
+    display: none;
+
+} 
+
+
+#box3{
+    display: none;
+    margin-left: 1rem;
+}
+
+
+#img2{
+    visibility: hidden;
 }
