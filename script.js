@@ -7,6 +7,9 @@ let valor = document.getElementById("box") //aqui eu peguei o valor do elemento 
     let ab = document.getElementById("title")
     let ca = document.getElementById("box3")
     let img = document.getElementById("img3")
+    let tirar = document.getElementById("box2")
+    let zenin = document.getElementById("teste")
+    let maki = document.getElementById("box4")
 
 function one(){
 
@@ -28,7 +31,7 @@ else{
 function two(){
     let ba = document.getElementById("box2")
     ba.style = "display: none"
-    let ca = document.getElementById("box3")
+    
     ca.style = "display:inline"
     
     ab.innerText = "Seu personagem tem como caracteristica: Tropa de exploração"
@@ -43,32 +46,72 @@ if(valor.value =="Conny" || valor.value == "conny" ){
     a.style = "display: inline"
     b.style = "display: none"
     f.style = "display: inline"
+    
+    zenin.style = "display: inline"
+    let final = document.getElementById("botao")
+    final.style = "display: none"
+
+    
+
 }
 else{
     a.style = "display: none"
     b.style = "display: inline"
-
 }
-b.style = "display: none"
-d.addEventListener ("click", four)
-ca.addEventListener ("click", four)
 }
 
 
-function four(){
-    f.style = "display: none"
-    
+function novo(){
     ab.innerText = "Seu personagem tem como caracteristica: Ackermann"
-    let teste = valor.value
-    teste = "kenny"
-    if(valor.value == "kenny" || valor.value == "Kenny"){
+    a.style = "display:none"
+    b.style = "display:none"
+    zenin.style = "display: none"
+    f.style = "display: none"
+    ca.style = "display:none"
+    maki.style = "display: inline"
+    
+
+}
+
+
+function final(){
+    if(valor.value=="kenny" || valor.value=="Kenny"){
         a.style = "display: inline"
-        b.style = "display: none"
         img.style = "display: inline"
+        b.style = "display: none"
+        let y = document.getElementById("finalb")
+        y.style = "display: inline"
     }
     else{
-        a.style = "display: none"
         b.style = "display: inline"
+        a.style = "display: none"
     }
-    
 }
+
+
+// function redes(){
+//     ab.innerText = "Me siga nas redes sociais"
+//     let i = document.getElementsByClassName("h3")[0]
+//     i.innerHTML = "Twitter: thexdfps Instagram: @joaoxd27"
+//     a.style = "display: none"
+//     img.style = "display: none"
+//     maki.style = "display: none"
+//     valor.style = "display: none"
+//     let y = document.getElementById("finalb")
+//     y.style = "display:none"
+// }
+
+function redes(){
+    let i = document.getElementsByTagName("h3")[0]
+    i.innerHTML = "Twitter: thexdfps\nInstagram: @joaoxd27"
+    ab.innerText = "Me siga nas redes sociais"
+    a.style =  "display: none"
+    img.style = "display: none"
+    maki.style = "display: none"
+    valor.style = "display: none"
+    let y = document.getElementById("finalb")
+    y.style = "display: none"
+}
+
+
+
