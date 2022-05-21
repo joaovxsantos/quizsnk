@@ -71,7 +71,7 @@ h3{
 
 #img{
 
-    visibility: hidden;
+    display:none;
 
 }
 
@@ -107,5 +107,10 @@ footer{
 
 
 #img2{
-    visibility: hidden;
+    display: none;
+}
+
+
+#img3{
+    display: none;
 }
