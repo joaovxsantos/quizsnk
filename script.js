@@ -4,6 +4,7 @@ let valor = document.getElementById("box") //aqui eu peguei o valor do elemento 
     let c = document.getElementById("img") //aqui eu peguei o valor do elemento q ta com id img
     let d = document.getElementById("botao")
     let f = document.getElementById("img2")
+<<<<<<< Updated upstream
     let ab = document.getElementById("title")
     let ca = document.getElementById("box3")
     let img = document.getElementById("img3")
@@ -17,6 +18,14 @@ if(valor.value =="Hitch" || valor.value == "hitch"){ //aq uma condição
     a.style = "display: inline" //aq eu mudei o style do elemento q ta com id no let a
     b.style = "display: none" //aq eu mudei o style do elemento q ta com id no let b
     c.style = "display: inline" //aq eu mudei o style do elemento q ta com id no let c
+=======
+function one(){
+    
+if(valor.value =="Hitch" || valor.value == "hitch"){ //aq uma condição
+    a.style = "display: inline" //aq eu mudei o style do elemento q ta com id no let a
+    b.style = "display: none" //aq eu mudei o style do elemento q ta com id no let b
+    c.style = "visibility: visible" //aq eu mudei o style do elemento q ta com id no let c
+>>>>>>> Stashed changes
     d.style = "display: inline"
 }
 else{
@@ -73,6 +82,7 @@ function novo(){
 
 }
 
+<<<<<<< Updated upstream
 
 function final(){
     if(valor.value=="kenny" || valor.value=="Kenny"){
@@ -114,4 +124,31 @@ function redes(){
 }
 
 
+=======
+function two(){
+    let ba = document.getElementById("box2")
+    ba.style = "display: none"
+    let ca = document.getElementById("box3")
+    ca.style = "display:inline"
+    let ab = document.getElementById("title")
+    ab.innerText = "Seu personagem tem como caracteristica: Tropa de exploração"
+    a.style = "display:none"
+    b.style = "display:none"
+    c.style = "visibility: hidden"
+}
+
+
+function three(){
+if(valor.value =="Conny" || valor.value == "conny" ){
+    a.style = "display: inline"
+    b.style = "display: none"
+    f.style = "visibility: visible"
+}
+else{
+    a.style = "display: none"
+    b.style = "display: inline"
+    
+}
+}
+>>>>>>> Stashed changes
 

@@ -96,7 +96,11 @@ footer{
 
     margin-left: 1rem;
     display: none;
+<<<<<<< Updated upstream
 
+=======
+    
+>>>>>>> Stashed changes
 } 
 
 
@@ -107,6 +111,7 @@ footer{
 
 
 #img2{
+<<<<<<< Updated upstream
     display: none;
 }
 
@@ -132,3 +137,7 @@ footer{
     margin-left: 15px;
 }
 
+=======
+    visibility: hidden;
+}
+>>>>>>> Stashed changes
